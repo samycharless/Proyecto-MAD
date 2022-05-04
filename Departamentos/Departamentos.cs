@@ -24,7 +24,7 @@ namespace Proyecto_MAD.Calculo
         private void Departamentos_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            dt = db.DataTable_MostrarPercep(3);
+            dt = db.DataTable_MostrarDepto(3);
             Dgv_Deptos.DataSource = dt;
         }
 
@@ -54,6 +54,7 @@ namespace Proyecto_MAD.Calculo
 
         private void Btn_ModificarDpto_Click(object sender, EventArgs e)
         {
+
         }
 
         private void Btn_EliminarDpto_Click(object sender, EventArgs e)
@@ -72,9 +73,7 @@ namespace Proyecto_MAD.Calculo
                     {
                         MessageBox.Show("Se ha eliminado el Departamento correctamente", "Enhorabuena", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-
                 }
-
             }
         }
 

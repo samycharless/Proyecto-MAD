@@ -24,7 +24,7 @@ namespace Proyecto_MAD.Calculo
         private void Puestos_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            dt = db.DataTable_MostrarPercep(3);
+            dt = db.DataTable_MostrarPuesto(3);
             Dgv_Puestos.DataSource = dt;
         }
 
@@ -55,6 +55,8 @@ namespace Proyecto_MAD.Calculo
 
         private void Btn_ModificarPuesto_Click(object sender, EventArgs e)
         {
+
+
 
         }
 

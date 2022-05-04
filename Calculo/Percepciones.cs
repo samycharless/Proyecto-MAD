@@ -147,6 +147,9 @@ namespace Proyecto_MAD.Percepciones_y_deducciones
             }
         }
 
-        
+        private void TB_Nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
